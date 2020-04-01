@@ -4,12 +4,12 @@ describe("the calculations", () => {
     global.calculator = new Calc();
   })
 
-  //add
+  //add function
   it("should add two integers", () => {
-    expect(calculator.add(2, 2)).toBe(4);
+    expect(calculator.add(1, 2)).toBe(3);
   });
   it("should add three or more integers", () => {
-    expect(calculator.add(3, 3, 5)).toBe(11);
+    expect(calculator.add(1, 3, 5)).toBe(9);
   });
 });
 
@@ -18,13 +18,12 @@ describe("the calculations", () => {
     global.Calc = require("../src/simple_calculator_part2");
     global.calculator = new Calc();
   });
-
-  //multiply
+  //multiply function
   it("should multiply two integers", () => {
-    expect(calculator.multiply(5, 2)).toBe(10);
+    expect(calculator.multiply(6, 2)).toBe(12);
   });
   it("should multiply two or more integers ", () => {
-    expect(calculator.multiply(2, 2, 1)).toBe(4);
+    expect(calculator.multiply(6, 3, 2)).toBe(36);
   });
 });
 
