@@ -1,0 +1,11 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple_calculator_part2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yanga & Nkosinathi",
+  "license": "ISC"
+}
