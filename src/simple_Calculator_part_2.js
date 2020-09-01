@@ -1,6 +1,6 @@
 let LAST = 0;
 
-class Calc {
+class Calculator {
   constructor() {
     this.results = [];
     this.memorySlots = [];
@@ -60,4 +60,6 @@ class Calc {
 }
 
 
-module.exports = Calc;
+module.exports = Calculator;
+  
+

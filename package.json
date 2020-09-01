@@ -1,11 +1,11 @@
 {
-  "name": "src",
+  "name": "simple_calculator-part2",
   "version": "1.0.0",
   "description": "",
-  "main": "simple_calculator_part2",
+  "main": "simple_calculator part2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yanga & Nkosinathi",
+  "author": "",
   "license": "ISC"
 }

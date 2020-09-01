@@ -1,7 +1,7 @@
 describe("the calculations", () => {
   beforeEach(function () {
-    global.Calc = require("../src/simple_calculator_part2");
-    global.calculator = new Calc();
+    global.Calculator = require("../src/simple_Calculator_part2");
+    global.calculator = new Calculator();
   })
 
   //add function
@@ -15,8 +15,8 @@ describe("the calculations", () => {
 
 describe("the calculations", () => {
   beforeEach(function () {
-    global.Calc = require("../src/simple_calculator_part2");
-    global.calculator = new Calc();
+    global.Calculator = require("../src/simple_Calculator_part2");
+    global.calculator = new Calculator();
   });
   //multiply function
   it("should multiply two integers", () => {
@@ -30,8 +30,8 @@ describe("the calculations", () => {
 // last, get && get_slot functions
 describe("various calculations (last, get_slot, Last, get_slot)", () => {
   beforeEach(() => {
-    global.Calc = require("../src/simple_calculator_part2");
-    global.calculator = new Calc();
+    global.Calculator = require("../src/simple_Calculator_part2");
+    global.calculator = new Calculator();
   });
 
   
