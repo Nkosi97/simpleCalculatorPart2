@@ -1,6 +1,6 @@
 describe("the calculations", () => {
   beforeEach(function () {
-    global.Calculator = require("../src/simple_Calculator_part2");
+    global.Calculator = require("../src/simple_Calculator_part-2");
     global.calculator = new Calculator();
   })
 
@@ -15,7 +15,7 @@ describe("the calculations", () => {
 
 describe("the calculations", () => {
   beforeEach(function () {
-    global.Calculator = require("../src/simple_Calculator_part2");
+    global.Calculator = require("../src/simple_Calculator_part-2");
     global.calculator = new Calculator();
   });
   //multiply function
@@ -30,7 +30,7 @@ describe("the calculations", () => {
 // last, get && get_slot functions
 describe("various calculations (last, get_slot, Last, get_slot)", () => {
   beforeEach(() => {
-    global.Calculator = require("../src/simple_Calculator_part2");
+    global.Calculator = require("../src/simple_Calculator_part-2");
     global.calculator = new Calculator();
   });
 
